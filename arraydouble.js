@@ -8,4 +8,8 @@ const arrayDouble = (arr) => {
   return [doubledNum, ...arrayDouble(arr.slice(1))];
 };
 
+// const arrayDouble = (arr) => {
+//   return arr.map(item => item*2);
+// };
+
 console.log(arrayDouble([1,2,3]));
